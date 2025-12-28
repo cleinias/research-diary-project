@@ -26,7 +26,7 @@ cd $year
 filename=$year-$month-$day.tex
 
 if [ -f "$filename" ]; then
-    echo "A file called '$filename' already exists in diretory $year. Aborting addition of new entry."
+    echo "A file called '$filename' already exists in directory $year. Aborting addition of new entry."
     exit
 fi
 
